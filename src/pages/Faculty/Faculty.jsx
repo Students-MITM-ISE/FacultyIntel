@@ -1,10 +1,7 @@
-import AppraisalForm from "../Forms/AppraisalForm";
-
 function Faculty() {
   return (
     <div>
-      <h1>Forms</h1>
-      <AppraisalForm />
+      Faculty
     </div>
   );
 }

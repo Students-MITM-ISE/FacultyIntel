@@ -5,6 +5,7 @@ import Home from "./pages/Home/Home";
 import Faculty from "./pages/Faculty/Faculty";
 import HoD from "./pages/HoD/HoD";
 import Admin from "./pages/Admin/Admin";
+import AppraisalForm from "./pages/Forms/AppraisalForm";
 import AppLayout from "./ui/AppLayout";
 import Login from "./ui/Login";
 import Signup from "./ui/Signup";
@@ -30,11 +31,13 @@ function App() {
             <Route path="faculty" element={<Faculty />} />
             <Route path="hod" element={<HoD />} />
             <Route path="admin" element={<Admin />} />
+            <Route path="form" element={<AppraisalForm />} />            
           </Route>
 
           <Route path="login" element={<Login />} />
           <Route path="signup" element={<Signup />} />
           <Route path="*" element={<PageNotFound />} />
+          
         </Routes>
       </BrowserRouter>
 
