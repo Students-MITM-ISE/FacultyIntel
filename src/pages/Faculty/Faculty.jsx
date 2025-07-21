@@ -1,5 +1,9 @@
 function Faculty() {
-  return <div>Faculty</div>;
+  return (
+    <div>
+      Faculty
+    </div>
+  );
 }
 
 export default Faculty;
